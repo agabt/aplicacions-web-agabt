@@ -17,3 +17,39 @@
 .simpleul {
     color: aqua;
 }
+
+table td {
+    border: 1px solid #000;
+}
+
+.pati {
+    text-align: center;
+}
+
+.setmana {
+    background-color: red;
+}
+
+.serveis {
+    background-color: orange;
+}
+
+.seguretat {
+    background-color: lime;
+}
+
+.sistemes {
+    background-color: purple;
+}
+
+.aplicacions {
+    background-color: lightgoldenrodyellow;
+}
+
+.eie {
+    background-color: green;
+}
+
+.hora {
+    background-color: blue;
+}
