@@ -28,14 +28,17 @@ table td {
 
 .setmana {
     background-color: red;
+    color: yellow;
 }
 
 .serveis {
     background-color: orange;
+    color: lime;
 }
 
 .seguretat {
     background-color: lime;
+    color: orange;
 }
 
 .sistemes {
@@ -44,12 +47,74 @@ table td {
 
 .aplicacions {
     background-color: lightgoldenrodyellow;
+    color: chocolate;
 }
 
 .eie {
     background-color: green;
+    color: orange;
 }
 
 .hora {
     background-color: blue;
+}
+
+/* body {
+    background-color: beige;
+} per flexbox.html */
+
+section > div {
+    border: 1px solid black;
+    width: fit-content;
+    flex-flow: row wrap;
+}
+
+.flex-container {
+    width: 80%;
+    height: 600px;
+    border: 1px solid black;
+    background: #ccc;
+    padding: 20px;
+    display: flex;
+/*  flex-direction: row;
+    flex-wrap: wrap;
+    (manera separada de flex-flow) */
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.caja {
+    border: 1px solid rgb(70, 69, 69);
+    background-color: white;
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 200px;
+    line-height: 200px;
+    /*height: 120px;*/
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
+}
+
+.c1{
+    background: lightblue;
+    order: 2;
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+
+.c2{
+    background: lightcoral;
+    order: 3;
+    flex-grow: 1;
+}
+
+.c3{
+    background: lightgreen;
+    order: 1;
+    flex-grow: 1;
 }
