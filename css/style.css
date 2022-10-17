@@ -126,3 +126,28 @@ section > div {
     order: 1;
     flex-grow: 1;
 }
+
+.contenidor-flex{
+    width: 80%;
+    height: 600px;
+    padding: 20px;
+    display: flex;
+/*  flex-direction: row;
+    flex-wrap: wrap;
+    (manera separada de flex-flow) */
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.dies {
+    background-color: red;
+    color: yellow;
+    margin: 0 auto;
+}
+
+.hora {
+    background-color: blue;
+}
