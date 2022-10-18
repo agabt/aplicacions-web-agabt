@@ -1,55 +1,94 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Hola món!</title>
-        <!-- IMPORT LIBRARY -->
-        <link rel="stylesheet" href="css/style.css">
-        <script src="js/utils.js"></script>
-    </head>
 
-    <body>
-        <section class="contenidor-flex">
-            <section>
-                <div>HORARI</div>
-                <div>HORARI SMX GRUP B</div>
-            </section>
-            <div class="dies">Dilluns</div>
-            <div class="dies">Dimarts</div>
-            <div class="dies">Dimecres</div>
-            <div class="dies">Dijous</div>
-            <div class="dies">Divendres</div>
-            <div class="hora">8:00-8:50</div>
-            <div class="hora">8:50-9:40</div>
-            <div class="hora">9:40-10:00</div>
-            <div class="hora">10:00-10:55</div>
-            <div class="hora">10:55-11:50</div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola món!</title>
+    <!-- IMPORT LIBRARY -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/utils.js"></script>
+</head>
+
+<body>
+    <section class="contenidor-flex">
+        <!-- Bloc dels dies + titols -->
+        <div class="cont-flex-2">
+            <div class="horari">HORARI</div>
+            <div>
+                <div class="horari-smx">HORARI SMX GRUP B</div>
+                <div class="cont-flex-3">
+                    <div class="setmana dies">Dilluns</div>
+                    <div class="setmana dies">Dimarts</div>
+                    <div class="setmana dies">Dimecres</div>
+                    <div class="setmana dies">Dijous</div>
+                    <div class="setmana dies">Divendres</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Primer bloc -->
+        <div class="cont-flex-1">
+            <div>
+                <div class="hora pad-g">8:00-8:50</div>
+                <div class="hora pad-g">8:50-9:40</div>
+            </div>
+            <div class="serveis modul">Serveis</div>
+            <div class="seguretat modul">Seguretat</div>
+            <div class="serveis modul">Serveis</div>
+            <div class="sistemes modul">Sistemes</div>
+            <div class="serveis modul">Serveis</div>
+        </div>
+
+        <!-- Segon bloc / primer pati -->
+        <div class="cont-flex-1">
+            <div class="hora pad-m">9:40-10:00</div>
+            <div class="patio">Pati</div>
+        </div>
+
+        <!-- Tercer bloc -->
+        <div class="cont-flex-1">
+            <div>
+                <div class="hora">10:00-10:55</div>
+                <div class="hora">10:55-11:50</div>
+            </div>
+            <div class="seguretat modul2">Seguretat</div>
+            <div class="aplicacions modul2">Aplicacions</div>
+            <div class="aplicacions modul2">Aplicacions</div>
+            <div>
+                <div class="sistemes modul2">Sistemes</div>
+                <div class="serveis modul2">Serveis</div>
+            </div>
+            <div>
+                <div class="serveis modul2">Serveis</div>
+                <div class="sistemes modul2">Sistemes</div>
+            </div>
+        </div>
+
+        <!-- Quart bloc / segon pati -->
+        <div class="cont-flex-1">
             <div class="hora">11:50-12-10</div>
-            <div class="hora">12:10-13:05</div>
-            <div class="hora">13:05-14:00</div>
-            <div>Serveis</div>
-            <div>Seguretat</div>
-            <div>Serveis</div>
-            <div>Sistemes</div>
-            <div>Serveis</div>
-            <div class="pati">Pati</div>
-            <div>Seguretat</div>
-            <div>Aplicacions</div>
-            <div>Aplicacions</div>
-            <div>Sistemes</div>
-            <div>Serveis</div>
-            <div>Serveis</div>
-            <div>Sistemes</div>
-            <div class="pati">Pati</div>
-            <div>EIE</div>
-            <div>Aplicacions</div>
-            <div>EIE</div>
-            <div>Sistemes</div>
-            <div>Seguretat</div>
-            <div>Sistemes</div>
-        </section>
-    </body>
+            <div class="patio">Pati</div>
+        </div>
+
+        <!-- Cinquè bloc (i últim) -->
+        <div class="cont-flex-1">
+            <div>
+                <div class="hora">12:10-13:05</div>
+                <div class="hora">13:05-14:00</div>
+            </div>
+            <div>
+                <div class="eie modul2">EIE</div>
+                <div class="aplicacions modul2">Aplicacions</div>
+            </div>
+            <div class="eie modul">EIE</div>
+            <div class="sistemes modul">Sistemes</div>
+            <div class="seguretat modul">Seguretat</div>
+            <div class="sistemes modul">Sistemes</div>
+        </div>
+
+    </section>
+</body>
 
 </html>
