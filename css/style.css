@@ -128,18 +128,7 @@ section > div {
 }
 
 .contenidor-flex{
-    width: 80%;
-    height: 600px;
-    padding: 20px;
     display: flex;
-/*  flex-direction: row;
-    flex-wrap: wrap;
-    (manera separada de flex-flow) */
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin: 0 auto;
 }
 
 .dies {
@@ -150,4 +139,8 @@ section > div {
 
 .hora {
     background-color: blue;
+}
+
+.pati {
+    padding: 0 100px;
 }
