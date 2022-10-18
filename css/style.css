@@ -141,15 +141,13 @@ section>div>div {
     margin: 2px;
 }
 
-/* @media screen and (min-width:400px) (max-width:1200px) { */
+@media screen and (min-width:400px) (max-width:1200px) {
 .contenidor-flex {
     display: flex;
     flex-direction: column;
     width: 1400px;
     justify-content: center;
-}
-
-/* } */
+} }
 
 .cont-flex-1 {
     display: flex;
